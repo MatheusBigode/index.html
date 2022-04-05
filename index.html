@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizJW</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(0, 0, 0);
+            background-size: 100%;
+            background-repeat: repeat-x;
+            background-position: center;
+        }
+        header{
+            background-color: rgb(241, 155, 25);
+            padding: px;
+        }
+        header > h1{
+            margin: auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #000000;
+            text-align: center;
+            font-size: 70px;
+        }
+        .outside{
+            width: 60%;
+            height: 200px;
+            background-color: rgb(241, 155, 25);
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 20px;
+            padding: 8px;
+            border: 2px solid;
+            position: static;
+            display: table;
+        }
+        .inside {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: auto;
+            display: tab;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .inside > label {
+            font-size: 20px;
+        }
+        .inside > select {
+            font-size: 15px;
+        }
+        .inside > button {
+            background-color: #dd0f0f; 
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+        }
+        .inside > button:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            cursor: pointer;
+        }
+        .inside > button:active {
+            box-shadow: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Quiz<br>Juice WRLD</h1>
+    </header>
+    <div class="outside">
+    <div class="inside">
+    <h1>Qual o real nome de Juice WRLD?</h1>
+    <label>Selecione uma resposta</label> <br> <br>
+    <select id="pergunta1">
+        <option value="Jahseh Dwayne Ricardo Onfroy">Jahseh Dwayne Ricardo Onfroy</option>
+        <option value="Jarmaine Lamarr Cole">Jarmaine Lamarr Cole</option>
+        <option value="Jarad Anthony Higgins">Jarad Anthony Higgins</option>
+        <option value="Michael Lamar White IV">Michael Lamar White IV</option>
+    </select>
+    </div>
+    </div>
+    <div class="outside">
+        <div class="inside">
+        <h1>Em que ano nasceu?</h1>
+        <label>Selecione uma resposta</label> <br> <br>
+        <select id="pergunta2">
+            <option value="1996">1996</option>
+            <option value="1997">1997</option>
+            <option value="1998">1998</option>
+            <option value="1999">1999</option>
+        </select>
+        </div>
+        </div>
+        <div class="outside">
+            <div class="inside">
+            <h1>Qual o seu maior hit?</h1>
+            <label>Selecione uma resposta</label> <br> <br>
+            <select id="pergunta3">
+                <option value="Lucid Dreams">Lucid Dreams</option>
+                <option value="All Girls Are The Same">All Girls Are The Same</option>
+                <option value="Robbery">Robbery</option>
+                <option value="Smile">Smile</option>
+                <option value="Wasted">Wasted</option>
+            </select>
+            </div>
+            </div>
+            <div class="outside">
+                <div class="inside">
+                <h1>Antes de ter "Juice WRLD" como nome artístico, Juice era conhecido como:</h1>
+                <label>Selecione uma resposta</label> <br> <br>
+                <select id="pergunta4">
+                    <option value="Young WRLD">Young WRLD</option>
+                    <option value="Juice The Kidd">Juice The Kidd</option>
+                    <option value="Lean O'WRLD">Lean O'WRLD</option>
+                    <option value="Lil Juice">Lil Juice</option>
+                    <option value="Lil WRLD">Lil WRLD</option>
+                </select>
+                </div>
+                </div>
+                <div class="outside">
+                    <div class="inside">
+                    <h1>Juice trabalhou com diversos produtores ao longo de sua carreira, mas o produtor que produziu seus maiores hits é:</h1>
+                    <label>Selecione uma resposta</label> <br> <br>
+                    <select id="pergunta5">
+                        <option value="Nick Mira">Nick Mira</option>
+                        <option value="Wheezy">Wheezy</option>
+                        <option value="Murda Beatz">Murda Beatz</option>
+                        <option value="Turbo">Turbo</option>
+                    </select>
+                    </div>
+                    </div>
+         <div class="outside">
+        <div class="inside">
+        <h1>Juice faleceu aos 21 anos de idade em 2019, no auge de sua carreira. Juice infelizmente foi vítima de um(a) ______.</h1>
+        <label>Selecione uma resposta</label> <br> <br>
+        <select id="pergunta6">
+            <option value="Overdose">Overdose</option>
+            <option value="Acidente de trânsito">Acidente de trânsito</option>
+            <option value="Homicídio">Homicídio</option>
+            <option value="Acidente aéreo">Acidente aéreo</option>
+        </select>
+        </div>
+        </div>  
+        <div class="outside">
+            <div class="inside">
+            <h1>Quais destes artistas Juice não possui um feat?</h1>
+            <label>Selecione uma resposta</label> <br> <br>
+            <select id="pergunta7">
+                <option value="BTS">BTS</option>
+                <option value="Maroon 5">Maroon 5</option>
+                <option value="MC Gui">MC Gui</option>
+                <option value="Ellie Goulding">Ellie Goulding</option>
+                <option value="Marshmello">Marshmello</option>
+            </select>
+            </div>
+            </div>
+                <div class="outside">
+        <div class="inside">
+        <h1>Juice já disse em entrevista que começou a usar drogas ainda quando jovem, sendo uma delas, o lean. Tendo isso em mente, Juice alegou que o artista que o influenciou indiretamente a beber lean foi ____</h1>
+        <label>Selecione uma resposta</label> <br> <br>
+        <select id="pergunta8">
+            <option value="Future">Future</option>
+            <option value="A$AP Rocky">A$AP Rocky</option>
+            <option value="Kendrick Lamar">Kendrick Lamar</option>
+            <option value="Lil Wayne">Lil Wayne</option>
+            <option value="50 Cent">50 Cent</option>
+        </select>
+        </div>
+        </div>
+        <div class="outside">
+            <div class="inside">
+            <h1>Quantos álbuns Juice lançou em vida?</h1>
+            <label>Selecione uma resposta</label> <br> <br>
+            <select id="pergunta9">
+                <option value="4">4</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="7">7</option>
+                <option value="1">1</option>
+            </select>
+            </div>
+            </div>
+                <div class="outside">
+        <div class="inside">
+        <h1></h1>
+        <label>Quais destes artistas Juice considerava como seus melhores amigos?</label> <br> <br>
+        <select id="pergunta10">
+            <option value="Lil Pump & Eminem">Lil Pump & Eminem</option>
+            <option value="Polo G & Halsey">Polo G & Halsey</option>
+            <option value="Dj Scheme & Ski Mask">Dj Scheme & Ski Mask</option>
+            <option value="Trippie Redd & Lil Tjay">Trippie Redd & Lil Tjay</option>
+            <option value="The Kid Laroi & Olivia Rodrigo">The Kid Laroi & Olivia Rodrigo</option>
+        </select>
+        </div>
+        </div>
+ 
+        <div class="outside">
+        <div class="inside">
+            <h1>Pontuação Final</h1>
+            <button id="fim" onclick="setPontos()">Ver pontuação</button>
+            <h3 id="pontuação"></h3>
+        </div>
+        </div>
+    <footer>
+    </footer>
+ 
+    <script>
+        let question1 = document.querySelector("#pergunta1")
+        let question2 = document.querySelector("#pergunta2")
+        let question3 = document.querySelector("#pergunta3")
+        let question4 = document.querySelector("#pergunta4")
+        let question5 = document.querySelector("#pergunta5")
+        let question6 = document.querySelector("#pergunta6")
+        let question7 = document.querySelector("#pergunta7")
+        let question8 = document.querySelector("#pergunta8")
+        let question9 = document.querySelector("#pergunta9")
+        let question10 = document.querySelector("#pergunta10")
+        var paragrafo = document.querySelector("#pontuação")
+ 
+        function setPontos(){
+            let resposta1 = question1.value
+            let resposta2 = question2.value
+            let resposta3 = question3.value
+            let resposta4 = question4.value
+            let resposta5 = question5.value
+            let resposta6 = question6.value
+            let resposta7 = question7.value
+            let resposta8 = question8.value
+            let resposta9 = question9.value
+            let resposta10 = question10.value
+            let pontos = 0
+ 
+            if (resposta1 === "Jarad Anthony Higgins") {
+                pontos++
+            }
+            if (resposta2 === "1998") {
+                pontos++
+            }
+            if (resposta3 === "Lucid Dreams") {
+                pontos++
+            }
+            if (resposta4 === "Juice The Kidd") {
+                pontos++
+            }
+            if (resposta5 === "Nick Mira") {
+                pontos++
+            }
+            if (resposta6 === "Overdose") {
+                pontos++
+            }
+            if (resposta7 === "MC Gui") {
+                pontos++
+            }
+            if (resposta8 === "Future") {
+                pontos++
+            }
+            if (resposta9 === "2") {
+                pontos++
+            }
+            if (resposta10 === "Dj Scheme & Ski Mask") {
+                pontos++
+            }
+            if (pontos === 0) {
+                frase = "Eu confio que você faz melhor que isso!"
+            }
+            else if (pontos === 1) {
+                frase = "Melhor que nada..."
+            }
+            else if (pontos === 2) {
+                frase = "Tá indo mas falta muito.."
+            }
+            else if (pontos === 3) {
+                frase = "Bora que tá indo!"
+            }
+            else if (pontos === 4) {
+                frase = "Isso!"
+            }
+            else if (pontos === 5) {
+                frase = "BOA!"
+            }
+            else if (pontos === 6) {
+                frase = "Ué, você escuta ele?"
+            }
+            else if (pontos === 7) {
+                frase = "Tá quase!"
+            }
+            else if (pontos === 8) {
+                frase = "Sabe muito!"
+            }
+            else if (pontos === 9) {
+                frase = "Parabéns, você é um fã!"
+            }
+            else if (pontos === 10) {
+                frase = "I HAVE THESE LUCID DREAMSSSS!"
+            }
+            paragrafo.innerText = "Você conseguiu:" + pontos +"/10\n" + frase
+        }
+    </script>
+</body>
+</html>
